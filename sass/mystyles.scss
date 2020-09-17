@@ -23,3 +23,18 @@ $fullhd-enabled: false;*/
 $control-border-width: 2px;
 $input-border-color: transparent;
 $input-shadow: none;
+
+
+
+.banner{
+    .hero{
+        .hero-body{
+            background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+            url('/img/food9.jpg');
+            background-size: cover;
+        }
+        .hero-foot{
+            background-color: transparent;
+        }
+    }    
+}

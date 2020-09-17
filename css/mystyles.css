@@ -1,4 +1,5 @@
 /*! bulma.io v0.9.0 | MIT License | github.com/jgthms/bulma */
+@import url("https://fonts.googleapis.com/css?family=Nunito:400,700");
 @keyframes spinAround {
   from {
     transform: rotate(0deg); }
@@ -7479,3 +7480,24 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 .footer {
   background-color: #fafafa;
   padding: 3rem 1.5rem 6rem; }
+
+/*$purple: #8A4D76;
+$pink: #FA7C91;
+$brown: #757763;
+$beige-light: #D0D1CD;
+$beige-lighter: #EFF0EB;
+
+// Update Bulma's global variables
+$family-sans-serif: "Nunito", sans-serif;
+$grey-dark: $brown;
+$grey-light: $beige-light;
+$primary: $purple;
+$link: $pink;
+$widescreen-enabled: false;
+$fullhd-enabled: false;*/
+.banner .hero .hero-body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/img/food9.jpg");
+  background-size: cover; }
+
+.banner .hero .hero-foot {
+  background-color: transparent; }
