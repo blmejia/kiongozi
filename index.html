@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My custom Bulma website</title>
+    <link rel="stylesheet" href="css/mystyles.css">
+  </head>
+  <body>
+
+    <!---------------------------------------------->
+     <section class=" banner">
+        <section class="hero is-primary is-medium">
+            <!-- Hero head: will stick at the top -->
+          
+          
+            <!-- Hero content: will be in the middle -->
+            <div class="hero-body">
+              <div class="container has-text-centered">
+                <h1 class="title">
+                  Kiongozi's
+                </h1>
+                <h2 class="subtitle">
+                  Korner
+                </h2>
+              </div>
+            </div>
+          
+            <!-- Hero footer: will stick at the bottom -->
+            <div class="hero-foot">
+              <nav class="tabs is-centered">
+                <div class="container">
+                  <ul>
+                    <li class="tab is-active" onclick="openT(event, 'home')"><a>Home</a></li>
+                    <li class="tab " onclick="openT(event, 'blog')"><a>Blog/Vlog</a></li>
+                    <li class="tab " onclick="openT(event, 'recipies')"><a>Recipies</a></li>
+                    <li class="tab " onclick="openT(event, 'coaching')"><a>Coaching</a></li>
+                    
+                  </ul>
+                </div>
+              </nav>
+            </div>
+          </section>
+     </section>
+<!------------------------------------------>
+
+
+
+
+<!------------------------------------------>
+
+
+     <section class="container">
+        <div class="content-tab" id="home"  >
+            <p>
+                1
+            </p>
+        </div>
+    
+        <div class="content-tab" id="blog" style="display: none">
+            <p>
+                2
+            </p>
+        </div>
+    
+        <div class="content-tab" id="recipies" style="display: none">
+            <p>
+                3
+            </p>
+        </div>
+    
+        <div class="content-tab" id="coaching" style="display: none">
+            <p>
+                4
+            </p>
+        </div>
+    </section> 
+
+
+
+<!------------------------------------------->
+
+
+    <script src="app.js"></script>
+  </body>
+</html>
